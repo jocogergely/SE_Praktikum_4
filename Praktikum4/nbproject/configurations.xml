@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>../Sources/FestoProcessAccess.h</itemPath>
+      <itemPath>../Sources/FestoProcessActuators.h</itemPath>
+      <itemPath>../Sources/FestoProcessSensors.h</itemPath>
+      <itemPath>../Sources/HeightSensor.h</itemPath>
+      <itemPath>../Sources/TestClass.h</itemPath>
+      <itemPath>../Sources/factory.h</itemPath>
+      <itemPath>../Sources/fsm.h</itemPath>
+      <itemPath>../Sources/iomasks.h</itemPath>
+      <itemPath>../Sources/minilab1008processimage.h</itemPath>
+      <itemPath>../Sources/plugin.h</itemPath>
+      <itemPath>../Sources/processimage.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>../Sources/FestoProcessAccess.cpp</itemPath>
+      <itemPath>../Sources/HeightSensor.cpp</itemPath>
+      <itemPath>../Sources/TestClass.cpp</itemPath>
+      <itemPath>../Sources/factory.cpp</itemPath>
+      <itemPath>../Sources/fsm.cpp</itemPath>
+      <itemPath>../Sources/main.cpp</itemPath>
+      <itemPath>../Sources/minilab1008processimage.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../Sources</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </compileType>
+      <item path="../Sources/FestoProcessAccess.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/FestoProcessAccess.h" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/FestoProcessActuators.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/FestoProcessSensors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/HeightSensor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/HeightSensor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/TestClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/TestClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/factory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/factory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/fsm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/fsm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/iomasks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/minilab1008processimage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Sources/minilab1008processimage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Sources/plugin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/processimage.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../Sources/FestoProcessAccess.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/FestoProcessAccess.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/FestoProcessActuators.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/FestoProcessSensors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/HeightSensor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/HeightSensor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/TestClass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/TestClass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/factory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/factory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/fsm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/fsm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/iomasks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Sources/minilab1008processimage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../Sources/minilab1008processimage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../Sources/plugin.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Sources/processimage.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
